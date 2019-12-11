@@ -1,1 +1,1 @@
-# samples
+# Blog Post Samples

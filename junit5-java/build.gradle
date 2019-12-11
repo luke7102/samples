@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.luke.samples'
+version '191203.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+test { // JUnit5에서 이거 안넣어주면 테스트를 찾을 수 없는 에러가 발생함 : No tests found for given includes ~~~~
+    useJUnitPlatform()
+}
+
+dependencies {
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.5.2'
+}
