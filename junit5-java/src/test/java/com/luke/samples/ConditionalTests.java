@@ -1,5 +1,6 @@
 package com.luke.samples;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.*;
 
@@ -7,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.condition.JRE.*;
 import static org.junit.jupiter.api.condition.OS.*;
 
+@DisplayName("Conditional Test")
 public class ConditionalTests {
 
     @Test

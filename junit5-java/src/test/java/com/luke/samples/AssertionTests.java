@@ -7,12 +7,12 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Optional;
 import java.util.function.BooleanSupplier;
 
 import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.*;
 
+@DisplayName("Assertion Test")
 public class AssertionTests {
 
     @Test
@@ -142,7 +142,7 @@ public class AssertionTests {
     @DisplayName("assertTimeout test")
     public void whenAssertingTimeout_thenNotExceeded() {
         assertTimeout(
-          Duration.ofSeconds(1),
+                Duration.ofSeconds(1),
                 () -> {
                     System.out.println("Start Testing...");
                     Thread.sleep(3000);

@@ -2,6 +2,7 @@ package com.luke.samples;
 
 import org.junit.jupiter.api.*;
 
+@DisplayName("Basic Annotation Test")
 class BasicAnnotationsTest {
 
     @BeforeAll
