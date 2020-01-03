@@ -3,7 +3,7 @@ package com.luke.samples;
 import org.junit.jupiter.api.*;
 
 @DisplayName("Basic Annotation Test")
-class BasicAnnotationsTest {
+public class BasicAnnotationsTest {
 
     @BeforeAll
     static void beforeAllTest() { // 반드시 static으로 선언

@@ -16,5 +16,5 @@ test { // JUnit5에서 이거 안넣어주면 테스트를 찾을 수 없는 에
 }
 
 dependencies {
-    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.5.2'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.5.2'
 }
