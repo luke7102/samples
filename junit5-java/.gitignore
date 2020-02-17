@@ -49,5 +49,3 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 /.idea/
 .gitignore
-src/main/
-src/test/resources/
